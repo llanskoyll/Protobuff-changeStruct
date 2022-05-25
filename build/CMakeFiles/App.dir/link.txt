@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/App.dir/main.c.o  -o App 
