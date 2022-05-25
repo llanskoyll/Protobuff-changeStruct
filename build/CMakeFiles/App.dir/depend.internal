@@ -3,3 +3,12 @@
 
 CMakeFiles/App.dir/main.c.o
  /home/artem/Рабочий стол/proto/main.c
+ /home/artem/Рабочий стол/proto/protoIncil.h
+ /home/artem/Рабочий стол/proto/protobuf-c.h
+ /home/artem/Рабочий стол/proto/structurs.pb-c.h
+CMakeFiles/App.dir/protoIncil.c.o
+ /home/artem/Рабочий стол/proto/protoIncil.c
+ /home/artem/Рабочий стол/proto/protoIncil.h
+CMakeFiles/App.dir/protobuf-c.c.o
+ /home/artem/Рабочий стол/proto/protobuf-c.c
+ /home/artem/Рабочий стол/proto/protobuf-c.h

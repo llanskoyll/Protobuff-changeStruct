@@ -1,3 +1,5 @@
-/home/artem/Рабочий стол/proto/build/CMakeFiles/rebuild_cache.dir
 /home/artem/Рабочий стол/proto/build/CMakeFiles/edit_cache.dir
+/home/artem/Рабочий стол/proto/build/CMakeFiles/package_source.dir
+/home/artem/Рабочий стол/proto/build/CMakeFiles/rebuild_cache.dir
+/home/artem/Рабочий стол/proto/build/CMakeFiles/package.dir
 /home/artem/Рабочий стол/proto/build/CMakeFiles/App.dir

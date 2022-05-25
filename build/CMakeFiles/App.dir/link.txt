@@ -1,1 +1,1 @@
-/usr/bin/cc    CMakeFiles/App.dir/main.c.o  -o App 
+/usr/bin/cc    CMakeFiles/App.dir/main.c.o CMakeFiles/App.dir/protoIncil.c.o CMakeFiles/App.dir/protobuf-c.c.o  -o App 

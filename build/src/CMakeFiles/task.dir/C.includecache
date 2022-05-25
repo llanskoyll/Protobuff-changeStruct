@@ -1,0 +1,48 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/artem/Рабочий стол/proto/src/main.c
+protoIncil.h
+/home/artem/Рабочий стол/proto/src/protoIncil.h
+structurs.pb-c.h
+/home/artem/Рабочий стол/proto/src/structurs.pb-c.h
+
+/home/artem/Рабочий стол/proto/src/protoIncil.c
+protoIncil.h
+/home/artem/Рабочий стол/proto/src/protoIncil.h
+
+/home/artem/Рабочий стол/proto/src/protoIncil.h
+stdio.h
+/home/artem/Рабочий стол/proto/src/stdio.h
+
+/home/artem/Рабочий стол/proto/src/protobuf-c.c
+stdlib.h
+-
+string.h
+-
+protobuf-c.h
+/home/artem/Рабочий стол/proto/src/protobuf-c.h
+
+/home/artem/Рабочий стол/proto/src/protobuf-c.h
+assert.h
+-
+limits.h
+-
+stddef.h
+-
+stdint.h
+-
+
+/home/artem/Рабочий стол/proto/src/structurs.pb-c.c
+structurs.pb-c.h
+/home/artem/Рабочий стол/proto/src/structurs.pb-c.h
+
+/home/artem/Рабочий стол/proto/src/structurs.pb-c.h
+protobuf-c/protobuf-c.h
+-
+

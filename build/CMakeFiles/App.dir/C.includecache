@@ -7,6 +7,26 @@
 #IncludeRegexTransform: 
 
 /home/artem/Рабочий стол/proto/main.c
+protoIncil.h
+/home/artem/Рабочий стол/proto/protoIncil.h
+structurs.pb-c.h
+/home/artem/Рабочий стол/proto/structurs.pb-c.h
+
+/home/artem/Рабочий стол/proto/protoIncil.h
 stdio.h
 /home/artem/Рабочий стол/proto/stdio.h
+
+/home/artem/Рабочий стол/proto/protobuf-c.h
+assert.h
+-
+limits.h
+-
+stddef.h
+-
+stdint.h
+-
+
+/home/artem/Рабочий стол/proto/structurs.pb-c.h
+protobuf-c.h
+/home/artem/Рабочий стол/proto/protobuf-c.h
 

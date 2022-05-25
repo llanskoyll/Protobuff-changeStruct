@@ -6,5 +6,5 @@ C_FLAGS =   -std=gnu99
 
 C_DEFINES = 
 
-C_INCLUDES = 
+C_INCLUDES = -I"/home/artem/Рабочий стол/proto/src" 
 

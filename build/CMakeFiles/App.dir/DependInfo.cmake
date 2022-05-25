@@ -5,6 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/artem/Рабочий стол/proto/main.c" "/home/artem/Рабочий стол/proto/build/CMakeFiles/App.dir/main.c.o"
+  "/home/artem/Рабочий стол/proto/protoIncil.c" "/home/artem/Рабочий стол/proto/build/CMakeFiles/App.dir/protoIncil.c.o"
+  "/home/artem/Рабочий стол/proto/protobuf-c.c" "/home/artem/Рабочий стол/proto/build/CMakeFiles/App.dir/protobuf-c.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

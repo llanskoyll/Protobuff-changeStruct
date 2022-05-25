@@ -70,7 +70,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	/usr/bin/cpack --config ./CPackSourceConfig.cmake /home/artem/Рабочий\ стол/proto/build/CPackSourceConfig.cmake
+	cd "/home/artem/Рабочий стол/proto/build" && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/artem/Рабочий\ стол/proto/build/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -92,7 +92,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	/usr/bin/cpack --config ./CPackConfig.cmake
+	cd "/home/artem/Рабочий стол/proto/build" && /usr/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -102,14 +102,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/artem/Рабочий стол/proto/build/CMakeFiles" "/home/artem/Рабочий стол/proto/build/CMakeFiles/progress.marks"
-	$(MAKE) -f CMakeFiles/Makefile2 all
+	cd "/home/artem/Рабочий стол/proto/build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/artem/Рабочий стол/proto/build/CMakeFiles" "/home/artem/Рабочий стол/proto/build/src/CMakeFiles/progress.marks"
+	cd "/home/artem/Рабочий стол/proto/build" && $(MAKE) -f CMakeFiles/Makefile2 src/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/artem/Рабочий стол/proto/build/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles/Makefile2 clean
+	cd "/home/artem/Рабочий стол/proto/build" && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -119,31 +119,33 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd "/home/artem/Рабочий стол/proto/build" && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd "/home/artem/Рабочий стол/proto/build" && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/home/artem/Рабочий стол/proto/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named App
+# Convenience name for target.
+src/CMakeFiles/task.dir/rule:
+	cd "/home/artem/Рабочий стол/proto/build" && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/task.dir/rule
+.PHONY : src/CMakeFiles/task.dir/rule
 
-# Build rule for target.
-App: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 App
-.PHONY : App
+# Convenience name for target.
+task: src/CMakeFiles/task.dir/rule
+
+.PHONY : task
 
 # fast build rule for target.
-App/fast:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/build
-.PHONY : App/fast
+task/fast:
+	cd "/home/artem/Рабочий стол/proto/build" && $(MAKE) -f src/CMakeFiles/task.dir/build.make src/CMakeFiles/task.dir/build
+.PHONY : task/fast
 
 main.o: main.c.o
 
@@ -151,7 +153,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/main.c.o
+	cd "/home/artem/Рабочий стол/proto/build" && $(MAKE) -f src/CMakeFiles/task.dir/build.make src/CMakeFiles/task.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -160,7 +162,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/main.c.i
+	cd "/home/artem/Рабочий стол/proto/build" && $(MAKE) -f src/CMakeFiles/task.dir/build.make src/CMakeFiles/task.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -169,7 +171,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/main.c.s
+	cd "/home/artem/Рабочий стол/proto/build" && $(MAKE) -f src/CMakeFiles/task.dir/build.make src/CMakeFiles/task.dir/main.c.s
 .PHONY : main.c.s
 
 protoIncil.o: protoIncil.c.o
@@ -178,7 +180,7 @@ protoIncil.o: protoIncil.c.o
 
 # target to build an object file
 protoIncil.c.o:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/protoIncil.c.o
+	cd "/home/artem/Рабочий стол/proto/build" && $(MAKE) -f src/CMakeFiles/task.dir/build.make src/CMakeFiles/task.dir/protoIncil.c.o
 .PHONY : protoIncil.c.o
 
 protoIncil.i: protoIncil.c.i
@@ -187,7 +189,7 @@ protoIncil.i: protoIncil.c.i
 
 # target to preprocess a source file
 protoIncil.c.i:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/protoIncil.c.i
+	cd "/home/artem/Рабочий стол/proto/build" && $(MAKE) -f src/CMakeFiles/task.dir/build.make src/CMakeFiles/task.dir/protoIncil.c.i
 .PHONY : protoIncil.c.i
 
 protoIncil.s: protoIncil.c.s
@@ -196,7 +198,7 @@ protoIncil.s: protoIncil.c.s
 
 # target to generate assembly for a file
 protoIncil.c.s:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/protoIncil.c.s
+	cd "/home/artem/Рабочий стол/proto/build" && $(MAKE) -f src/CMakeFiles/task.dir/build.make src/CMakeFiles/task.dir/protoIncil.c.s
 .PHONY : protoIncil.c.s
 
 protobuf-c.o: protobuf-c.c.o
@@ -205,7 +207,7 @@ protobuf-c.o: protobuf-c.c.o
 
 # target to build an object file
 protobuf-c.c.o:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/protobuf-c.c.o
+	cd "/home/artem/Рабочий стол/proto/build" && $(MAKE) -f src/CMakeFiles/task.dir/build.make src/CMakeFiles/task.dir/protobuf-c.c.o
 .PHONY : protobuf-c.c.o
 
 protobuf-c.i: protobuf-c.c.i
@@ -214,7 +216,7 @@ protobuf-c.i: protobuf-c.c.i
 
 # target to preprocess a source file
 protobuf-c.c.i:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/protobuf-c.c.i
+	cd "/home/artem/Рабочий стол/proto/build" && $(MAKE) -f src/CMakeFiles/task.dir/build.make src/CMakeFiles/task.dir/protobuf-c.c.i
 .PHONY : protobuf-c.c.i
 
 protobuf-c.s: protobuf-c.c.s
@@ -223,8 +225,35 @@ protobuf-c.s: protobuf-c.c.s
 
 # target to generate assembly for a file
 protobuf-c.c.s:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/protobuf-c.c.s
+	cd "/home/artem/Рабочий стол/proto/build" && $(MAKE) -f src/CMakeFiles/task.dir/build.make src/CMakeFiles/task.dir/protobuf-c.c.s
 .PHONY : protobuf-c.c.s
+
+structurs.pb-c.o: structurs.pb-c.c.o
+
+.PHONY : structurs.pb-c.o
+
+# target to build an object file
+structurs.pb-c.c.o:
+	cd "/home/artem/Рабочий стол/proto/build" && $(MAKE) -f src/CMakeFiles/task.dir/build.make src/CMakeFiles/task.dir/structurs.pb-c.c.o
+.PHONY : structurs.pb-c.c.o
+
+structurs.pb-c.i: structurs.pb-c.c.i
+
+.PHONY : structurs.pb-c.i
+
+# target to preprocess a source file
+structurs.pb-c.c.i:
+	cd "/home/artem/Рабочий стол/proto/build" && $(MAKE) -f src/CMakeFiles/task.dir/build.make src/CMakeFiles/task.dir/structurs.pb-c.c.i
+.PHONY : structurs.pb-c.c.i
+
+structurs.pb-c.s: structurs.pb-c.c.s
+
+.PHONY : structurs.pb-c.s
+
+# target to generate assembly for a file
+structurs.pb-c.c.s:
+	cd "/home/artem/Рабочий стол/proto/build" && $(MAKE) -f src/CMakeFiles/task.dir/build.make src/CMakeFiles/task.dir/structurs.pb-c.c.s
+.PHONY : structurs.pb-c.c.s
 
 # Help Target
 help:
@@ -236,7 +265,7 @@ help:
 	@echo "... package_source"
 	@echo "... rebuild_cache"
 	@echo "... package"
-	@echo "... App"
+	@echo "... task"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -246,6 +275,9 @@ help:
 	@echo "... protobuf-c.o"
 	@echo "... protobuf-c.i"
 	@echo "... protobuf-c.s"
+	@echo "... structurs.pb-c.o"
+	@echo "... structurs.pb-c.i"
+	@echo "... structurs.pb-c.s"
 .PHONY : help
 
 
@@ -257,6 +289,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/home/artem/Рабочий стол/proto/build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

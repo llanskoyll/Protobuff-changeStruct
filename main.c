@@ -1,8 +1,8 @@
-#include "stdio.h"
-
+#include "protoIncil.h"
+#include "structurs.pb-c.h"
 
 int main() {
 
-    printf("Test\n");
+    structur_Incilization();
     return 0;
 }
