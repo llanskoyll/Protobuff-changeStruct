@@ -1,27 +1,21 @@
 cmake_minimum_required(VERSION 3.16)
-
 project(task)
-
 set(CMAKE_CXX_FLAGS ${CMAKE_CXX_FLAGS} "-lprotobuf-c")
 set(CMAKE_C_STANDARD 99)
-
-
-
 set(SOURCES 
-
     main.c
     protoIncil.c
+    protoChange.c
     protobuf-c.c
+    structurs.pb-c.c
 )
-
 set(HEADERS 
-
     protoIncil.h
+    protoChange.h
     protobuf-c.h
+    structurs.pb-c.c
 )
 add_executable(App ${SOURCES} ${HEADERS})
-
-
 include(FindProtobuf)
 find_package(Protobuf REQUIRED)
 include_directories(${PROTOBUF_INCLUDE_DIR})

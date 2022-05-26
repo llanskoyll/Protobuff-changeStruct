@@ -7,60 +7,60 @@
 #endif
 
 #include "structurs.pb-c.h"
-void   user_structur__init
-                     (UserStructur         *message)
+void   amessage__init
+                     (AMessage         *message)
 {
-  static const UserStructur init_value = USER_STRUCTUR__INIT;
+  static const AMessage init_value = AMESSAGE__INIT;
   *message = init_value;
 }
-size_t user_structur__get_packed_size
-                     (const UserStructur *message)
+size_t amessage__get_packed_size
+                     (const AMessage *message)
 {
-  assert(message->base.descriptor == &user_structur__descriptor);
+  assert(message->base.descriptor == &amessage__descriptor);
   return protobuf_c_message_get_packed_size ((const ProtobufCMessage*)(message));
 }
-size_t user_structur__pack
-                     (const UserStructur *message,
+size_t amessage__pack
+                     (const AMessage *message,
                       uint8_t       *out)
 {
-  assert(message->base.descriptor == &user_structur__descriptor);
+  assert(message->base.descriptor == &amessage__descriptor);
   return protobuf_c_message_pack ((const ProtobufCMessage*)message, out);
 }
-size_t user_structur__pack_to_buffer
-                     (const UserStructur *message,
+size_t amessage__pack_to_buffer
+                     (const AMessage *message,
                       ProtobufCBuffer *buffer)
 {
-  assert(message->base.descriptor == &user_structur__descriptor);
+  assert(message->base.descriptor == &amessage__descriptor);
   return protobuf_c_message_pack_to_buffer ((const ProtobufCMessage*)message, buffer);
 }
-UserStructur *
-       user_structur__unpack
+AMessage *
+       amessage__unpack
                      (ProtobufCAllocator  *allocator,
                       size_t               len,
                       const uint8_t       *data)
 {
-  return (UserStructur *)
-     protobuf_c_message_unpack (&user_structur__descriptor,
+  return (AMessage *)
+     protobuf_c_message_unpack (&amessage__descriptor,
                                 allocator, len, data);
 }
-void   user_structur__free_unpacked
-                     (UserStructur *message,
+void   amessage__free_unpacked
+                     (AMessage *message,
                       ProtobufCAllocator *allocator)
 {
   if(!message)
     return;
-  assert(message->base.descriptor == &user_structur__descriptor);
+  assert(message->base.descriptor == &amessage__descriptor);
   protobuf_c_message_free_unpacked ((ProtobufCMessage*)message, allocator);
 }
-static const ProtobufCFieldDescriptor user_structur__field_descriptors[3] =
+static const ProtobufCFieldDescriptor amessage__field_descriptors[3] =
 {
   {
     "id",
     1,
-    PROTOBUF_C_LABEL_NONE,
+    PROTOBUF_C_LABEL_REQUIRED,
     PROTOBUF_C_TYPE_UINT32,
     0,   /* quantifier_offset */
-    offsetof(UserStructur, id),
+    offsetof(AMessage, id),
     NULL,
     NULL,
     0,             /* flags */
@@ -69,10 +69,10 @@ static const ProtobufCFieldDescriptor user_structur__field_descriptors[3] =
   {
     "years",
     2,
-    PROTOBUF_C_LABEL_NONE,
+    PROTOBUF_C_LABEL_REQUIRED,
     PROTOBUF_C_TYPE_UINT32,
     0,   /* quantifier_offset */
-    offsetof(UserStructur, years),
+    offsetof(AMessage, years),
     NULL,
     NULL,
     0,             /* flags */
@@ -81,38 +81,38 @@ static const ProtobufCFieldDescriptor user_structur__field_descriptors[3] =
   {
     "crc",
     3,
-    PROTOBUF_C_LABEL_NONE,
-    PROTOBUF_C_TYPE_UINT64,
+    PROTOBUF_C_LABEL_REQUIRED,
+    PROTOBUF_C_TYPE_UINT32,
     0,   /* quantifier_offset */
-    offsetof(UserStructur, crc),
+    offsetof(AMessage, crc),
     NULL,
     NULL,
     0,             /* flags */
     0,NULL,NULL    /* reserved1,reserved2, etc */
   },
 };
-static const unsigned user_structur__field_indices_by_name[] = {
+static const unsigned amessage__field_indices_by_name[] = {
   2,   /* field[2] = crc */
   0,   /* field[0] = id */
   1,   /* field[1] = years */
 };
-static const ProtobufCIntRange user_structur__number_ranges[1 + 1] =
+static const ProtobufCIntRange amessage__number_ranges[1 + 1] =
 {
   { 1, 0 },
   { 0, 3 }
 };
-const ProtobufCMessageDescriptor user_structur__descriptor =
+const ProtobufCMessageDescriptor amessage__descriptor =
 {
   PROTOBUF_C__MESSAGE_DESCRIPTOR_MAGIC,
-  "User_structur",
-  "UserStructur",
-  "UserStructur",
+  "AMessage",
+  "AMessage",
+  "AMessage",
   "",
-  sizeof(UserStructur),
+  sizeof(AMessage),
   3,
-  user_structur__field_descriptors,
-  user_structur__field_indices_by_name,
-  1,  user_structur__number_ranges,
-  (ProtobufCMessageInit) user_structur__init,
+  amessage__field_descriptors,
+  amessage__field_indices_by_name,
+  1,  amessage__number_ranges,
+  (ProtobufCMessageInit) amessage__init,
   NULL,NULL,NULL    /* reserved[123] */
 };

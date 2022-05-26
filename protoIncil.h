@@ -4,6 +4,9 @@
 // инцилизации устройства либо создание нового пользователя
 //---------------
 
-#include "stdio.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <inttypes.h>
+#include "structurs.pb-c.h"
 
-void structur_Incilization();
+void add_new_user();

@@ -172,6 +172,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/main.c.s
 .PHONY : main.c.s
 
+protoChange.o: protoChange.c.o
+
+.PHONY : protoChange.o
+
+# target to build an object file
+protoChange.c.o:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/protoChange.c.o
+.PHONY : protoChange.c.o
+
+protoChange.i: protoChange.c.i
+
+.PHONY : protoChange.i
+
+# target to preprocess a source file
+protoChange.c.i:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/protoChange.c.i
+.PHONY : protoChange.c.i
+
+protoChange.s: protoChange.c.s
+
+.PHONY : protoChange.s
+
+# target to generate assembly for a file
+protoChange.c.s:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/protoChange.c.s
+.PHONY : protoChange.c.s
+
 protoIncil.o: protoIncil.c.o
 
 .PHONY : protoIncil.o
@@ -226,6 +253,33 @@ protobuf-c.c.s:
 	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/protobuf-c.c.s
 .PHONY : protobuf-c.c.s
 
+structurs.pb-c.o: structurs.pb-c.c.o
+
+.PHONY : structurs.pb-c.o
+
+# target to build an object file
+structurs.pb-c.c.o:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/structurs.pb-c.c.o
+.PHONY : structurs.pb-c.c.o
+
+structurs.pb-c.i: structurs.pb-c.c.i
+
+.PHONY : structurs.pb-c.i
+
+# target to preprocess a source file
+structurs.pb-c.c.i:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/structurs.pb-c.c.i
+.PHONY : structurs.pb-c.c.i
+
+structurs.pb-c.s: structurs.pb-c.c.s
+
+.PHONY : structurs.pb-c.s
+
+# target to generate assembly for a file
+structurs.pb-c.c.s:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/structurs.pb-c.c.s
+.PHONY : structurs.pb-c.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -240,12 +294,18 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... protoChange.o"
+	@echo "... protoChange.i"
+	@echo "... protoChange.s"
 	@echo "... protoIncil.o"
 	@echo "... protoIncil.i"
 	@echo "... protoIncil.s"
 	@echo "... protobuf-c.o"
 	@echo "... protobuf-c.i"
 	@echo "... protobuf-c.s"
+	@echo "... structurs.pb-c.o"
+	@echo "... structurs.pb-c.i"
+	@echo "... structurs.pb-c.s"
 .PHONY : help
 
 

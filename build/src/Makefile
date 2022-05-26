@@ -147,114 +147,6 @@ task/fast:
 	cd "/home/artem/Рабочий стол/proto/build" && $(MAKE) -f src/CMakeFiles/task.dir/build.make src/CMakeFiles/task.dir/build
 .PHONY : task/fast
 
-main.o: main.c.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.c.o:
-	cd "/home/artem/Рабочий стол/proto/build" && $(MAKE) -f src/CMakeFiles/task.dir/build.make src/CMakeFiles/task.dir/main.c.o
-.PHONY : main.c.o
-
-main.i: main.c.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.c.i:
-	cd "/home/artem/Рабочий стол/proto/build" && $(MAKE) -f src/CMakeFiles/task.dir/build.make src/CMakeFiles/task.dir/main.c.i
-.PHONY : main.c.i
-
-main.s: main.c.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.c.s:
-	cd "/home/artem/Рабочий стол/proto/build" && $(MAKE) -f src/CMakeFiles/task.dir/build.make src/CMakeFiles/task.dir/main.c.s
-.PHONY : main.c.s
-
-protoIncil.o: protoIncil.c.o
-
-.PHONY : protoIncil.o
-
-# target to build an object file
-protoIncil.c.o:
-	cd "/home/artem/Рабочий стол/proto/build" && $(MAKE) -f src/CMakeFiles/task.dir/build.make src/CMakeFiles/task.dir/protoIncil.c.o
-.PHONY : protoIncil.c.o
-
-protoIncil.i: protoIncil.c.i
-
-.PHONY : protoIncil.i
-
-# target to preprocess a source file
-protoIncil.c.i:
-	cd "/home/artem/Рабочий стол/proto/build" && $(MAKE) -f src/CMakeFiles/task.dir/build.make src/CMakeFiles/task.dir/protoIncil.c.i
-.PHONY : protoIncil.c.i
-
-protoIncil.s: protoIncil.c.s
-
-.PHONY : protoIncil.s
-
-# target to generate assembly for a file
-protoIncil.c.s:
-	cd "/home/artem/Рабочий стол/proto/build" && $(MAKE) -f src/CMakeFiles/task.dir/build.make src/CMakeFiles/task.dir/protoIncil.c.s
-.PHONY : protoIncil.c.s
-
-protobuf-c.o: protobuf-c.c.o
-
-.PHONY : protobuf-c.o
-
-# target to build an object file
-protobuf-c.c.o:
-	cd "/home/artem/Рабочий стол/proto/build" && $(MAKE) -f src/CMakeFiles/task.dir/build.make src/CMakeFiles/task.dir/protobuf-c.c.o
-.PHONY : protobuf-c.c.o
-
-protobuf-c.i: protobuf-c.c.i
-
-.PHONY : protobuf-c.i
-
-# target to preprocess a source file
-protobuf-c.c.i:
-	cd "/home/artem/Рабочий стол/proto/build" && $(MAKE) -f src/CMakeFiles/task.dir/build.make src/CMakeFiles/task.dir/protobuf-c.c.i
-.PHONY : protobuf-c.c.i
-
-protobuf-c.s: protobuf-c.c.s
-
-.PHONY : protobuf-c.s
-
-# target to generate assembly for a file
-protobuf-c.c.s:
-	cd "/home/artem/Рабочий стол/proto/build" && $(MAKE) -f src/CMakeFiles/task.dir/build.make src/CMakeFiles/task.dir/protobuf-c.c.s
-.PHONY : protobuf-c.c.s
-
-structurs.pb-c.o: structurs.pb-c.c.o
-
-.PHONY : structurs.pb-c.o
-
-# target to build an object file
-structurs.pb-c.c.o:
-	cd "/home/artem/Рабочий стол/proto/build" && $(MAKE) -f src/CMakeFiles/task.dir/build.make src/CMakeFiles/task.dir/structurs.pb-c.c.o
-.PHONY : structurs.pb-c.c.o
-
-structurs.pb-c.i: structurs.pb-c.c.i
-
-.PHONY : structurs.pb-c.i
-
-# target to preprocess a source file
-structurs.pb-c.c.i:
-	cd "/home/artem/Рабочий стол/proto/build" && $(MAKE) -f src/CMakeFiles/task.dir/build.make src/CMakeFiles/task.dir/structurs.pb-c.c.i
-.PHONY : structurs.pb-c.c.i
-
-structurs.pb-c.s: structurs.pb-c.c.s
-
-.PHONY : structurs.pb-c.s
-
-# target to generate assembly for a file
-structurs.pb-c.c.s:
-	cd "/home/artem/Рабочий стол/proto/build" && $(MAKE) -f src/CMakeFiles/task.dir/build.make src/CMakeFiles/task.dir/structurs.pb-c.c.s
-.PHONY : structurs.pb-c.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -266,18 +158,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... package"
 	@echo "... task"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... protoIncil.o"
-	@echo "... protoIncil.i"
-	@echo "... protoIncil.s"
-	@echo "... protobuf-c.o"
-	@echo "... protobuf-c.i"
-	@echo "... protobuf-c.s"
-	@echo "... structurs.pb-c.o"
-	@echo "... structurs.pb-c.i"
-	@echo "... structurs.pb-c.s"
 .PHONY : help
 
 

@@ -1,18 +1,8 @@
-syntax = "proto3";
+syntax = "proto2";
 
-// message Config_structur {
-
-//     uint32 error_id = 1;
-//     uint64 crc = 2;
-// }
-
-message User_structur {
+message AMessage {
     
-    uint32 id = 1;
-    uint32 years = 2;
-    uint64 crc = 3;
+    required uint32 id = 1;
+    required uint32 years = 2;
+    required uint32 crc = 3;
 }
-
-// message Structurs {
-//     repeated User_structur user_structur = 2; 
-// }
