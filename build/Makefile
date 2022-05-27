@@ -172,6 +172,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/main.c.s
 .PHONY : main.c.s
 
+new_structur.pb-c.o: new_structur.pb-c.c.o
+
+.PHONY : new_structur.pb-c.o
+
+# target to build an object file
+new_structur.pb-c.c.o:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/new_structur.pb-c.c.o
+.PHONY : new_structur.pb-c.c.o
+
+new_structur.pb-c.i: new_structur.pb-c.c.i
+
+.PHONY : new_structur.pb-c.i
+
+# target to preprocess a source file
+new_structur.pb-c.c.i:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/new_structur.pb-c.c.i
+.PHONY : new_structur.pb-c.c.i
+
+new_structur.pb-c.s: new_structur.pb-c.c.s
+
+.PHONY : new_structur.pb-c.s
+
+# target to generate assembly for a file
+new_structur.pb-c.c.s:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/new_structur.pb-c.c.s
+.PHONY : new_structur.pb-c.c.s
+
 protoChange.o: protoChange.c.o
 
 .PHONY : protoChange.o
@@ -294,6 +321,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... new_structur.pb-c.o"
+	@echo "... new_structur.pb-c.i"
+	@echo "... new_structur.pb-c.s"
 	@echo "... protoChange.o"
 	@echo "... protoChange.i"
 	@echo "... protoChange.s"

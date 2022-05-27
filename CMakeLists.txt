@@ -8,12 +8,14 @@ set(SOURCES
     protoChange.c
     protobuf-c.c
     structurs.pb-c.c
+    new_structur.pb-c.c
 )
 set(HEADERS 
     protoIncil.h
     protoChange.h
     protobuf-c.h
-    structurs.pb-c.c
+    structurs.pb-c.h
+    new_structur.pb-c.h
 )
 add_executable(App ${SOURCES} ${HEADERS})
 include(FindProtobuf)

@@ -57,7 +57,7 @@ static const ProtobufCFieldDescriptor amessage_2__field_descriptors[4] =
   {
     "id",
     1,
-    PROTOBUF_C_LABEL_REQUIRED,
+    PROTOBUF_C_LABEL_NONE,
     PROTOBUF_C_TYPE_UINT32,
     0,   /* quantifier_offset */
     offsetof(AMessage2, id),
@@ -69,7 +69,7 @@ static const ProtobufCFieldDescriptor amessage_2__field_descriptors[4] =
   {
     "years",
     2,
-    PROTOBUF_C_LABEL_REQUIRED,
+    PROTOBUF_C_LABEL_NONE,
     PROTOBUF_C_TYPE_UINT32,
     0,   /* quantifier_offset */
     offsetof(AMessage2, years),
@@ -81,7 +81,7 @@ static const ProtobufCFieldDescriptor amessage_2__field_descriptors[4] =
   {
     "new_parametr",
     3,
-    PROTOBUF_C_LABEL_REQUIRED,
+    PROTOBUF_C_LABEL_NONE,
     PROTOBUF_C_TYPE_UINT32,
     0,   /* quantifier_offset */
     offsetof(AMessage2, new_parametr),
@@ -93,7 +93,7 @@ static const ProtobufCFieldDescriptor amessage_2__field_descriptors[4] =
   {
     "crc",
     4,
-    PROTOBUF_C_LABEL_REQUIRED,
+    PROTOBUF_C_LABEL_NONE,
     PROTOBUF_C_TYPE_UINT32,
     0,   /* quantifier_offset */
     offsetof(AMessage2, crc),

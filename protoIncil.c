@@ -13,19 +13,26 @@ void add_new_user()
     printf("Введите years = ");
     scanf("%"PRIu32"", &years);
 
-    if((id != 0) && (years != 0)) 
+    if ((id != 0) && (years != 0)) 
     {
         void *buffer;
-        int len = 0;
+        size_t len = 0;
+        size_t wlen = 0;
         FILE *fp;
 
-        fp = freopen("incilProto","wb",stdout);
+        fp = fopen("incilProto","wb");
+        if (!fp) {
+            printf("File is not opene\r\n");
+            return;
+        }
 
         AMessage *mess;
         
         mess = (AMessage *)malloc(sizeof(AMessage));
 
-        AMESSAGE__INIT(mess); // check structurs.pb-c.h
+        // AMESSAGE__INIT(mess); // check structurs.pb-c.h
+
+        amessage__init(mess);
 
         mess->id = id;
         mess->years = years;
@@ -35,11 +42,16 @@ void add_new_user()
         len = amessage__get_packed_size(mess);
         buffer = malloc(len);
 
-        fwrite(buffer,sizeof(void), len, fp);
+        amessage__pack(mess, buffer);
+
+        wlen = fwrite(buffer, 1, len, fp);
+        if (wlen != len) {
+            printf("Удалось записать только %lu байт из %lu\r\n", wlen, len);
+        }
 
         free(buffer);
         free(mess);
-        close(fp);
+        fclose(fp);
 
         printf("Добавление нового пользователя успешно\n");
     } else 

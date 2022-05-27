@@ -1,8 +1,8 @@
-syntax = "proto2";
+syntax = "proto3";
 
 message AMessage {
     
-    required uint32 id = 1;
-    required uint32 years = 2;
-    required uint32 crc = 3;
+    uint32 id = 1;
+    uint32 years = 2;
+    uint32 crc = 3;
 }

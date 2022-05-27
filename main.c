@@ -28,7 +28,7 @@ int main() {
         }
         
 
-    } while(change =! "N");
+    } while(change != 'N');
 
     return 0;
 }
