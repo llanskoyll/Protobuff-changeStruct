@@ -37,7 +37,7 @@ void add_new_user()
         mess->id = id;
         mess->years = years;
         // функция подсчета crc
-        mess->crc = 123;
+        mess->crc = 2;
 
         len = amessage__get_packed_size(mess);
         buffer = malloc(len);

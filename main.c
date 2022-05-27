@@ -26,9 +26,13 @@ int main() {
         default:
             break;
         }
-        
 
-    } while(change != 'N');
+        if(change = 'N') 
+        {
+            break;
+        }
+        
+    } while(1);
 
     return 0;
 }
