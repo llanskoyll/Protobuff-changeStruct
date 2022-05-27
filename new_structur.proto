@@ -4,7 +4,8 @@ message AMessage_2 {
 
     required uint32 id = 1;
     required uint32 years = 2;
-    required uint32 crc = 3;
     optional uint32 new_parametr = 4;
+    required uint32 crc = 3;
+    
     
 }

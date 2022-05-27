@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/home/artem/Рабочий стол/proto/main.c
+stdio.h
+/home/artem/Рабочий стол/proto/stdio.h
+protoIncil.h
+/home/artem/Рабочий стол/proto/protoIncil.h
+protoChange.h
+/home/artem/Рабочий стол/proto/protoChange.h
+
 /home/artem/Рабочий стол/proto/new_structur.pb-c.h
 protobuf-c.h
 /home/artem/Рабочий стол/proto/protobuf-c.h
@@ -25,6 +33,14 @@ inttypes.h
 -
 new_structur.pb-c.h
 /home/artem/Рабочий стол/proto/new_structur.pb-c.h
+
+/home/artem/Рабочий стол/proto/protoIncil.h
+stdio.h
+-
+stdlib.h
+-
+inttypes.h
+-
 structurs.pb-c.h
 /home/artem/Рабочий стол/proto/structurs.pb-c.h
 
