@@ -6,6 +6,7 @@ set(SOURCES
     main.c
     protoIncil.c
     protoChange.c
+    printInfo.c
     protobuf-c.c
     structurs.pb-c.c
     new_structur.pb-c.c
@@ -13,6 +14,7 @@ set(SOURCES
 set(HEADERS 
     protoIncil.h
     protoChange.h
+    printInfo.h
     protobuf-c.h
     structurs.pb-c.h
     new_structur.pb-c.h

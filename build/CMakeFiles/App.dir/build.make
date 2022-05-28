@@ -96,9 +96,22 @@ CMakeFiles/App.dir/protoChange.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/App.dir/protoChange.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/artem/Рабочий стол/proto/protoChange.c" -o CMakeFiles/App.dir/protoChange.c.s
 
+CMakeFiles/App.dir/printInfo.c.o: CMakeFiles/App.dir/flags.make
+CMakeFiles/App.dir/printInfo.c.o: ../printInfo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/artem/Рабочий стол/proto/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/App.dir/printInfo.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/App.dir/printInfo.c.o   -c "/home/artem/Рабочий стол/proto/printInfo.c"
+
+CMakeFiles/App.dir/printInfo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/App.dir/printInfo.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/artem/Рабочий стол/proto/printInfo.c" > CMakeFiles/App.dir/printInfo.c.i
+
+CMakeFiles/App.dir/printInfo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/App.dir/printInfo.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/artem/Рабочий стол/proto/printInfo.c" -o CMakeFiles/App.dir/printInfo.c.s
+
 CMakeFiles/App.dir/protobuf-c.c.o: CMakeFiles/App.dir/flags.make
 CMakeFiles/App.dir/protobuf-c.c.o: ../protobuf-c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/artem/Рабочий стол/proto/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/App.dir/protobuf-c.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/artem/Рабочий стол/proto/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/App.dir/protobuf-c.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/App.dir/protobuf-c.c.o   -c "/home/artem/Рабочий стол/proto/protobuf-c.c"
 
 CMakeFiles/App.dir/protobuf-c.c.i: cmake_force
@@ -111,7 +124,7 @@ CMakeFiles/App.dir/protobuf-c.c.s: cmake_force
 
 CMakeFiles/App.dir/structurs.pb-c.c.o: CMakeFiles/App.dir/flags.make
 CMakeFiles/App.dir/structurs.pb-c.c.o: ../structurs.pb-c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/artem/Рабочий стол/proto/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/App.dir/structurs.pb-c.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/artem/Рабочий стол/proto/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/App.dir/structurs.pb-c.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/App.dir/structurs.pb-c.c.o   -c "/home/artem/Рабочий стол/proto/structurs.pb-c.c"
 
 CMakeFiles/App.dir/structurs.pb-c.c.i: cmake_force
@@ -124,7 +137,7 @@ CMakeFiles/App.dir/structurs.pb-c.c.s: cmake_force
 
 CMakeFiles/App.dir/new_structur.pb-c.c.o: CMakeFiles/App.dir/flags.make
 CMakeFiles/App.dir/new_structur.pb-c.c.o: ../new_structur.pb-c.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/artem/Рабочий стол/proto/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/App.dir/new_structur.pb-c.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/artem/Рабочий стол/proto/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/App.dir/new_structur.pb-c.c.o"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/App.dir/new_structur.pb-c.c.o   -c "/home/artem/Рабочий стол/proto/new_structur.pb-c.c"
 
 CMakeFiles/App.dir/new_structur.pb-c.c.i: cmake_force
@@ -140,6 +153,7 @@ App_OBJECTS = \
 "CMakeFiles/App.dir/main.c.o" \
 "CMakeFiles/App.dir/protoIncil.c.o" \
 "CMakeFiles/App.dir/protoChange.c.o" \
+"CMakeFiles/App.dir/printInfo.c.o" \
 "CMakeFiles/App.dir/protobuf-c.c.o" \
 "CMakeFiles/App.dir/structurs.pb-c.c.o" \
 "CMakeFiles/App.dir/new_structur.pb-c.c.o"
@@ -150,12 +164,13 @@ App_EXTERNAL_OBJECTS =
 App: CMakeFiles/App.dir/main.c.o
 App: CMakeFiles/App.dir/protoIncil.c.o
 App: CMakeFiles/App.dir/protoChange.c.o
+App: CMakeFiles/App.dir/printInfo.c.o
 App: CMakeFiles/App.dir/protobuf-c.c.o
 App: CMakeFiles/App.dir/structurs.pb-c.c.o
 App: CMakeFiles/App.dir/new_structur.pb-c.c.o
 App: CMakeFiles/App.dir/build.make
 App: CMakeFiles/App.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/artem/Рабочий стол/proto/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable App"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/artem/Рабочий стол/proto/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable App"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/App.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

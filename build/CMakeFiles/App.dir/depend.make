@@ -3,6 +3,7 @@
 
 CMakeFiles/App.dir/main.c.o: ../main.c
 CMakeFiles/App.dir/main.c.o: ../new_structur.pb-c.h
+CMakeFiles/App.dir/main.c.o: ../printInfo.h
 CMakeFiles/App.dir/main.c.o: ../protoChange.h
 CMakeFiles/App.dir/main.c.o: ../protoIncil.h
 CMakeFiles/App.dir/main.c.o: ../protobuf-c.h
@@ -11,6 +12,11 @@ CMakeFiles/App.dir/main.c.o: ../structurs.pb-c.h
 CMakeFiles/App.dir/new_structur.pb-c.c.o: ../new_structur.pb-c.c
 CMakeFiles/App.dir/new_structur.pb-c.c.o: ../new_structur.pb-c.h
 CMakeFiles/App.dir/new_structur.pb-c.c.o: ../protobuf-c.h
+
+CMakeFiles/App.dir/printInfo.c.o: ../new_structur.pb-c.h
+CMakeFiles/App.dir/printInfo.c.o: ../printInfo.c
+CMakeFiles/App.dir/printInfo.c.o: ../printInfo.h
+CMakeFiles/App.dir/printInfo.c.o: ../protobuf-c.h
 
 CMakeFiles/App.dir/protoChange.c.o: ../new_structur.pb-c.h
 CMakeFiles/App.dir/protoChange.c.o: ../protoChange.c

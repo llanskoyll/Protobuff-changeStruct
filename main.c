@@ -1,6 +1,6 @@
 #include "stdio.h"
 
-
+#include "printInfo.h"
 #include "protoIncil.h"
 #include "protoChange.h"
 
@@ -10,29 +10,34 @@ int main() {
 
     do {
 
-        printf("Добавить нового пользователя  - 1 \n");
-        printf("Загрузить новую структуру - 2 \n");
+        printf("Добавить нового пользователя  - 1 \r\n");
+        printf("Загрузить новую структуру - 2 \r\n");
+        printf("Вывести данные о структуре - 3 \r\n");
         printf("Введите нужную опцию - ");
         scanf("%c",&change);
-
+        
         switch (change)
         {
         case '1':
             add_new_user();
             break;
+
         case '2':
+
             change_structur_proto();
             break;
+
+        case '3':
+            printInfo();
+            break;
+
         default:
+            printf("\nНеверный ввод\n");
             break;
         }
 
-        if(change = 'N') 
-        {
-            break;
-        }
-        
-    } while(1);
+        printf("\t\n");
+    } while(change != 'N');
 
     return 0;
 }

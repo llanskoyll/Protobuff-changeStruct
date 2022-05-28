@@ -1,5 +1,5 @@
 #include "protoChange.h"
-#include <sys/stat.h>
+
 
 void change_structur_proto() 
 {

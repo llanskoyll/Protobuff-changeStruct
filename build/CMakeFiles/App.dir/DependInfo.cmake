@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/home/artem/Рабочий стол/proto/main.c" "/home/artem/Рабочий стол/proto/build/CMakeFiles/App.dir/main.c.o"
   "/home/artem/Рабочий стол/proto/new_structur.pb-c.c" "/home/artem/Рабочий стол/proto/build/CMakeFiles/App.dir/new_structur.pb-c.c.o"
+  "/home/artem/Рабочий стол/proto/printInfo.c" "/home/artem/Рабочий стол/proto/build/CMakeFiles/App.dir/printInfo.c.o"
   "/home/artem/Рабочий стол/proto/protoChange.c" "/home/artem/Рабочий стол/proto/build/CMakeFiles/App.dir/protoChange.c.o"
   "/home/artem/Рабочий стол/proto/protoIncil.c" "/home/artem/Рабочий стол/proto/build/CMakeFiles/App.dir/protoIncil.c.o"
   "/home/artem/Рабочий стол/proto/protobuf-c.c" "/home/artem/Рабочий стол/proto/build/CMakeFiles/App.dir/protobuf-c.c.o"

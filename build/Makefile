@@ -199,6 +199,33 @@ new_structur.pb-c.c.s:
 	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/new_structur.pb-c.c.s
 .PHONY : new_structur.pb-c.c.s
 
+printInfo.o: printInfo.c.o
+
+.PHONY : printInfo.o
+
+# target to build an object file
+printInfo.c.o:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/printInfo.c.o
+.PHONY : printInfo.c.o
+
+printInfo.i: printInfo.c.i
+
+.PHONY : printInfo.i
+
+# target to preprocess a source file
+printInfo.c.i:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/printInfo.c.i
+.PHONY : printInfo.c.i
+
+printInfo.s: printInfo.c.s
+
+.PHONY : printInfo.s
+
+# target to generate assembly for a file
+printInfo.c.s:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/printInfo.c.s
+.PHONY : printInfo.c.s
+
 protoChange.o: protoChange.c.o
 
 .PHONY : protoChange.o
@@ -324,6 +351,9 @@ help:
 	@echo "... new_structur.pb-c.o"
 	@echo "... new_structur.pb-c.i"
 	@echo "... new_structur.pb-c.s"
+	@echo "... printInfo.o"
+	@echo "... printInfo.i"
+	@echo "... printInfo.s"
 	@echo "... protoChange.o"
 	@echo "... protoChange.i"
 	@echo "... protoChange.s"
