@@ -13,6 +13,7 @@ int main() {
         printf("Добавить нового пользователя  - 1 \r\n");
         printf("Загрузить новую структуру - 2 \r\n");
         printf("Вывести данные о структуре - 3 \r\n");
+        printf("Выход - 0 \r\n");
         printf("Введите нужную опцию - ");
         scanf("%c",&change);
         
@@ -30,14 +31,10 @@ int main() {
         case '3':
             printInfo();
             break;
-
-        default:
-            printf("\nНеверный ввод\n");
-            break;
         }
 
         printf("\t\n");
-    } while(change != 'N');
+    } while(change != '0');
 
     return 0;
 }
