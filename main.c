@@ -6,7 +6,7 @@
 
 
 int main() {
-    char change;
+    int change;
 
     do {
 
@@ -15,20 +15,20 @@ int main() {
         printf("Вывести данные о структуре - 3 \r\n");
         printf("Выход - 0 \r\n");
         printf("Введите нужную опцию - ");
-        scanf("%c",&change);
-        
+        scanf("%d", &change);
+
         switch (change)
         {
-        case '1':
+        case 1:
             add_new_user();
             break;
 
-        case '2':
+        case 2:
 
             change_structur_proto();
             break;
 
-        case '3':
+        case 3:
             printInfo();
             break;
         }
