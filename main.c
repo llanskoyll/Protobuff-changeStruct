@@ -24,17 +24,22 @@ int main() {
             break;
 
         case 2:
-
             change_structur_proto();
             break;
 
         case 3:
             printInfo();
             break;
-        }
+        
+        case 0:
+            break;
 
+        default: 
+            printf("Неверный ввод");
+            break;
+        }
         printf("\t\n");
-    } while(change != '0');
+    } while(change != 0);
 
     return 0;
 }

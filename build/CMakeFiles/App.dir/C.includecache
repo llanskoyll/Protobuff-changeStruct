@@ -6,20 +6,14 @@
 
 #IncludeRegexTransform: 
 
-/home/artem/Рабочий стол/proto/main.c
-stdio.h
-/home/artem/Рабочий стол/proto/stdio.h
-printInfo.h
-/home/artem/Рабочий стол/proto/printInfo.h
-protoIncil.h
-/home/artem/Рабочий стол/proto/protoIncil.h
-protoChange.h
-/home/artem/Рабочий стол/proto/protoChange.h
-
 /home/artem/Рабочий стол/proto/new_structur.pb-c.h
 protobuf-c.h
 /home/artem/Рабочий стол/proto/protobuf-c.h
 
+/home/artem/Рабочий стол/proto/printInfo.c
+printInfo.h
+/home/artem/Рабочий стол/proto/printInfo.h
+
 /home/artem/Рабочий стол/proto/printInfo.h
 stdio.h
 -
@@ -31,28 +25,6 @@ inttypes.h
 -
 new_structur.pb-c.h
 /home/artem/Рабочий стол/proto/new_structur.pb-c.h
-
-/home/artem/Рабочий стол/proto/protoChange.h
-stdio.h
--
-stdlib.h
--
-inttypes.h
--
-sys/stat.h
--
-new_structur.pb-c.h
-/home/artem/Рабочий стол/proto/new_structur.pb-c.h
-
-/home/artem/Рабочий стол/proto/protoIncil.h
-stdio.h
--
-stdlib.h
--
-inttypes.h
--
-structurs.pb-c.h
-/home/artem/Рабочий стол/proto/structurs.pb-c.h
 
 /home/artem/Рабочий стол/proto/protobuf-c.h
 assert.h
@@ -63,8 +35,4 @@ stddef.h
 -
 stdint.h
 -
-
-/home/artem/Рабочий стол/proto/structurs.pb-c.h
-protobuf-c.h
-/home/artem/Рабочий стол/proto/protobuf-c.h
 

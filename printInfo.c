@@ -10,13 +10,13 @@ void printInfo() {
     size_t len;
     struct stat statbuf;
 
-    if (stat("incilProto", &statbuf) != 0) {
+    if (stat("incilProto_new", &statbuf) != 0) {
         printf("File not found\r\n");
         return;
     }
 
     FILE *fp;
-    fp = fopen("incilProto","rb");
+    fp = fopen("incilProto_new","rb");
     if (!fp) {
         printf("File is not opene\r\n");
         return;

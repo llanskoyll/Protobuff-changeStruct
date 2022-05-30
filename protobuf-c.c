@@ -47,7 +47,7 @@
 
 #include <stdlib.h>	/* for malloc, free */
 #include <string.h>	/* for strcmp, strlen, memcpy, memmove, memset */
-
+#include <stdio.h>
 #include "protobuf-c.h"
 
 #define TRUE				1
@@ -517,11 +517,16 @@ optional_field_get_packed_size(const ProtobufCFieldDescriptor *field,
 	    field->type == PROTOBUF_C_TYPE_STRING)
 	{
 		const void *ptr = *(const void * const *) member;
-		if (ptr == NULL || ptr == field->default_value)
+		if (ptr == NULL || ptr == field->default_value) 
 			return 0;
+			
 	} else {
 		if (!has)
+		{
+			printf("Error with : optional_field_get_packed_size \r\n");
 			return 0;
+		}
+			
 	}
 	return required_field_get_packed_size(field, member);
 }
@@ -714,6 +719,7 @@ size_t protobuf_c_message_get_packed_size(const ProtobufCMessage *message)
 
 	ASSERT_IS_MESSAGE(message);
 	for (i = 0; i < message->descriptor->n_fields; i++) {
+		
 		const ProtobufCFieldDescriptor *field =
 			message->descriptor->fields + i;
 		const void *member =
