@@ -11,5 +11,6 @@ syntax = "proto2";
 message AMessage_2 {
 
     required uint32 id = 1;
-    required uint32 crc = 2;
+    optional uint32 years = 2;
+    required uint32 crc = 3;
 }

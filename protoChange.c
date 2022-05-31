@@ -36,32 +36,19 @@ void change_structur_proto()
     fclose(fp);
 
     
-    AMessage *mess_old;
-    mess_old = amessage__unpack(NULL, filesize, buffer);
-    if (!mess_old) {
-        printf("Не удалось распаковать структуру\r\n");
-        free(buffer);
-        return;
-    }
-    
     AMessage2 *mess;
     
     mess = amessage_2__unpack(NULL, filesize, buffer);
-    
-    mess_old->has_years = 1;
-    mess->crc = mess_old->crc;
-    mess->id = mess_old->id;
-    
+
     if (!mess) {
         printf("Не удалось распаковать структуру\r\n");
         free(buffer);
         return;
     }
-
-    wlen = amessage_2__get_packed_size(mess) - 2;
+    mess->has_years = 0;
+    wlen = amessage_2__get_packed_size(mess);
     printf("%lu",wlen);
     wbuff = malloc(wlen);
-
 
     amessage_2__pack(mess, wbuff);
 
@@ -84,7 +71,6 @@ void change_structur_proto()
 err:
     fclose(fp);
     amessage_2__free_unpacked(mess, NULL);
-    amessage__free_unpacked(mess_old, NULL);
     free(buffer);
     free(wbuff);
 }

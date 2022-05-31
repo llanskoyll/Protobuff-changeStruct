@@ -43,7 +43,6 @@ void add_new_user()
 
         len = amessage__get_packed_size(mess);
         buffer = malloc(len);
-
         amessage__pack(mess, buffer);
 
         wlen = fwrite(buffer, 1, len, fp);
