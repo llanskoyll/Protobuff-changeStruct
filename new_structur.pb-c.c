@@ -52,7 +52,7 @@ void   amessage_2__free_unpacked
   assert(message->base.descriptor == &amessage_2__descriptor);
   protobuf_c_message_free_unpacked ((ProtobufCMessage*)message, allocator);
 }
-static const ProtobufCFieldDescriptor amessage_2__field_descriptors[4] =
+static const ProtobufCFieldDescriptor amessage_2__field_descriptors[2] =
 {
   {
     "id",
@@ -67,20 +67,8 @@ static const ProtobufCFieldDescriptor amessage_2__field_descriptors[4] =
     0,NULL,NULL    /* reserved1,reserved2, etc */
   },
   {
-    "years",
-    2,
-    PROTOBUF_C_LABEL_REQUIRED,
-    PROTOBUF_C_TYPE_UINT32,
-    0,   /* quantifier_offset */
-    offsetof(AMessage2, years),
-    NULL,
-    NULL,
-    0,             /* flags */
-    0,NULL,NULL    /* reserved1,reserved2, etc */
-  },
-  {
     "crc",
-    3,
+    2,
     PROTOBUF_C_LABEL_REQUIRED,
     PROTOBUF_C_TYPE_UINT32,
     0,   /* quantifier_offset */
@@ -90,29 +78,15 @@ static const ProtobufCFieldDescriptor amessage_2__field_descriptors[4] =
     0,             /* flags */
     0,NULL,NULL    /* reserved1,reserved2, etc */
   },
-  {
-    "new_parametr",
-    4,
-    PROTOBUF_C_LABEL_OPTIONAL,
-    PROTOBUF_C_TYPE_UINT32,
-    offsetof(AMessage2, has_new_parametr),
-    offsetof(AMessage2, new_parametr),
-    NULL,
-    NULL,
-    0,             /* flags */
-    0,NULL,NULL    /* reserved1,reserved2, etc */
-  },
 };
 static const unsigned amessage_2__field_indices_by_name[] = {
-  2,   /* field[2] = crc */
+  1,   /* field[1] = crc */
   0,   /* field[0] = id */
-  3,   /* field[3] = new_parametr */
-  1,   /* field[1] = years */
 };
 static const ProtobufCIntRange amessage_2__number_ranges[1 + 1] =
 {
   { 1, 0 },
-  { 0, 4 }
+  { 0, 2 }
 };
 const ProtobufCMessageDescriptor amessage_2__descriptor =
 {
@@ -122,7 +96,7 @@ const ProtobufCMessageDescriptor amessage_2__descriptor =
   "AMessage2",
   "",
   sizeof(AMessage2),
-  4,
+  2,
   amessage_2__field_descriptors,
   amessage_2__field_indices_by_name,
   1,  amessage_2__number_ranges,

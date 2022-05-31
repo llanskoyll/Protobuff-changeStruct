@@ -34,9 +34,11 @@ void add_new_user()
 
         amessage__init(mess);
 
+        
+        mess->has_years = 1;
+
         mess->id = id;
         mess->years = years;
-        // функция подсчета crc
         mess->crc = 2;
 
         len = amessage__get_packed_size(mess);

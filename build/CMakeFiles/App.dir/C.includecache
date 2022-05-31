@@ -10,21 +10,23 @@
 protobuf-c.h
 /home/artem/Рабочий стол/proto/protobuf-c.h
 
-/home/artem/Рабочий стол/proto/printInfo.c
-printInfo.h
-/home/artem/Рабочий стол/proto/printInfo.h
+/home/artem/Рабочий стол/proto/protoChange.c
+protoChange.h
+/home/artem/Рабочий стол/proto/protoChange.h
 
-/home/artem/Рабочий стол/proto/printInfo.h
+/home/artem/Рабочий стол/proto/protoChange.h
 stdio.h
 -
 stdlib.h
 -
-sys/stat.h
--
 inttypes.h
+-
+sys/stat.h
 -
 new_structur.pb-c.h
 /home/artem/Рабочий стол/proto/new_structur.pb-c.h
+structurs.pb-c.h
+/home/artem/Рабочий стол/proto/structurs.pb-c.h
 
 /home/artem/Рабочий стол/proto/protobuf-c.h
 assert.h
@@ -35,4 +37,8 @@ stddef.h
 -
 stdint.h
 -
+
+/home/artem/Рабочий стол/proto/structurs.pb-c.h
+protobuf-c.h
+/home/artem/Рабочий стол/proto/protobuf-c.h
 

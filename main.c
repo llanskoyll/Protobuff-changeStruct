@@ -17,8 +17,8 @@ int main() {
         printf("Введите нужную опцию - ");
         scanf("%d", &change);
 
-        switch (change)
-        {
+        switch (change) {
+
         case 1:
             add_new_user();
             break;
@@ -28,7 +28,7 @@ int main() {
             break;
 
         case 3:
-            printInfo();
+            // printInfo();
             break;
         
         case 0:
@@ -38,7 +38,9 @@ int main() {
             printf("Неверный ввод");
             break;
         }
+
         printf("\t\n");
+
     } while(change != 0);
 
     return 0;

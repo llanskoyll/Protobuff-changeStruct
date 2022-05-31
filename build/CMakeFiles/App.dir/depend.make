@@ -22,6 +22,7 @@ CMakeFiles/App.dir/protoChange.c.o: ../new_structur.pb-c.h
 CMakeFiles/App.dir/protoChange.c.o: ../protoChange.c
 CMakeFiles/App.dir/protoChange.c.o: ../protoChange.h
 CMakeFiles/App.dir/protoChange.c.o: ../protobuf-c.h
+CMakeFiles/App.dir/protoChange.c.o: ../structurs.pb-c.h
 
 CMakeFiles/App.dir/protoIncil.c.o: ../protoIncil.c
 CMakeFiles/App.dir/protoIncil.c.o: ../protoIncil.h

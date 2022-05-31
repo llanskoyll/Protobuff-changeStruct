@@ -27,12 +27,13 @@ struct  _AMessage
 {
   ProtobufCMessage base;
   uint32_t id;
+  protobuf_c_boolean has_years;
   uint32_t years;
   uint32_t crc;
 };
 #define AMESSAGE__INIT \
  { PROTOBUF_C_MESSAGE_INIT (&amessage__descriptor) \
-    , 0, 0, 0 }
+    , 0, 0, 0, 0 }
 
 
 /* AMessage methods */

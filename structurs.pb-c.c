@@ -69,9 +69,9 @@ static const ProtobufCFieldDescriptor amessage__field_descriptors[3] =
   {
     "years",
     2,
-    PROTOBUF_C_LABEL_REQUIRED,
+    PROTOBUF_C_LABEL_OPTIONAL,
     PROTOBUF_C_TYPE_UINT32,
-    0,   /* quantifier_offset */
+    offsetof(AMessage, has_years),
     offsetof(AMessage, years),
     NULL,
     NULL,
