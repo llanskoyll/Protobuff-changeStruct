@@ -5,7 +5,8 @@ set(CMAKE_C_STANDARD 99)
 set(SOURCES 
     main.c
     protoIncil.c
-    protoChange.c
+    protoChangeRemote.c
+    protoChangeNew.c
     printInfo.c
     protobuf-c.c
     structurs.pb-c.c
@@ -13,7 +14,8 @@ set(SOURCES
 )
 set(HEADERS 
     protoIncil.h
-    protoChange.h
+    protoChangeRemote.h
+    protoChangeNew.h
     printInfo.h
     protobuf-c.h
     structurs.pb-c.h

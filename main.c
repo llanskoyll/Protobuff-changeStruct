@@ -2,8 +2,8 @@
 
 #include "printInfo.h"
 #include "protoIncil.h"
-#include "protoChange.h"
-
+#include "protoChangeRemote.h"
+#include "protoChangeNew.h"
 
 int main() {
     int change;
@@ -11,7 +11,7 @@ int main() {
     do {
 
         printf("Добавить нового пользователя  - 1 \r\n");
-        printf("Загрузить новую структуру - 2 \r\n");
+        printf("Загрузить новую структуру с удаленным параметром - 2 \r\n");
         printf("Вывести данные о структуре - 3 \r\n");
         printf("Выход - 0 \r\n");
         printf("Введите нужную опцию - ");
@@ -24,7 +24,7 @@ int main() {
             break;
 
         case 2:
-            change_structur_proto();
+            change_structur_proto_remote();
             break;
 
         case 3:

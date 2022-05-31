@@ -1,8 +1,8 @@
-#include "protoChange.h"
+#include "protoChangeRemote.h"
 
 
 //for function if parametrs delete
-void change_structur_proto() 
+void change_structur_proto_remote() 
 {
     // Процесс считывания
     char *buffer, *wbuff;
@@ -78,8 +78,7 @@ err:
 
 
 
-// for function if added new parametr`s 
-/*
+
 void change_structur_proto() 
 {
     // Процесс считывания
@@ -158,4 +157,3 @@ err:
     free(buffer);
     free(wbuff);
 }
-*/

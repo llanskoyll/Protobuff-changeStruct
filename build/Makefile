@@ -226,32 +226,59 @@ printInfo.c.s:
 	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/printInfo.c.s
 .PHONY : printInfo.c.s
 
-protoChange.o: protoChange.c.o
+protoChangeNew.o: protoChangeNew.c.o
 
-.PHONY : protoChange.o
+.PHONY : protoChangeNew.o
 
 # target to build an object file
-protoChange.c.o:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/protoChange.c.o
-.PHONY : protoChange.c.o
+protoChangeNew.c.o:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/protoChangeNew.c.o
+.PHONY : protoChangeNew.c.o
 
-protoChange.i: protoChange.c.i
+protoChangeNew.i: protoChangeNew.c.i
 
-.PHONY : protoChange.i
+.PHONY : protoChangeNew.i
 
 # target to preprocess a source file
-protoChange.c.i:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/protoChange.c.i
-.PHONY : protoChange.c.i
+protoChangeNew.c.i:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/protoChangeNew.c.i
+.PHONY : protoChangeNew.c.i
 
-protoChange.s: protoChange.c.s
+protoChangeNew.s: protoChangeNew.c.s
 
-.PHONY : protoChange.s
+.PHONY : protoChangeNew.s
 
 # target to generate assembly for a file
-protoChange.c.s:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/protoChange.c.s
-.PHONY : protoChange.c.s
+protoChangeNew.c.s:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/protoChangeNew.c.s
+.PHONY : protoChangeNew.c.s
+
+protoChangeRemote.o: protoChangeRemote.c.o
+
+.PHONY : protoChangeRemote.o
+
+# target to build an object file
+protoChangeRemote.c.o:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/protoChangeRemote.c.o
+.PHONY : protoChangeRemote.c.o
+
+protoChangeRemote.i: protoChangeRemote.c.i
+
+.PHONY : protoChangeRemote.i
+
+# target to preprocess a source file
+protoChangeRemote.c.i:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/protoChangeRemote.c.i
+.PHONY : protoChangeRemote.c.i
+
+protoChangeRemote.s: protoChangeRemote.c.s
+
+.PHONY : protoChangeRemote.s
+
+# target to generate assembly for a file
+protoChangeRemote.c.s:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/protoChangeRemote.c.s
+.PHONY : protoChangeRemote.c.s
 
 protoIncil.o: protoIncil.c.o
 
@@ -354,9 +381,12 @@ help:
 	@echo "... printInfo.o"
 	@echo "... printInfo.i"
 	@echo "... printInfo.s"
-	@echo "... protoChange.o"
-	@echo "... protoChange.i"
-	@echo "... protoChange.s"
+	@echo "... protoChangeNew.o"
+	@echo "... protoChangeNew.i"
+	@echo "... protoChangeNew.s"
+	@echo "... protoChangeRemote.o"
+	@echo "... protoChangeRemote.i"
+	@echo "... protoChangeRemote.s"
 	@echo "... protoIncil.o"
 	@echo "... protoIncil.i"
 	@echo "... protoIncil.s"

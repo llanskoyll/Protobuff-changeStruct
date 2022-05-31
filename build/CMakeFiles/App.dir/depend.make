@@ -4,7 +4,8 @@
 CMakeFiles/App.dir/main.c.o: ../main.c
 CMakeFiles/App.dir/main.c.o: ../new_structur.pb-c.h
 CMakeFiles/App.dir/main.c.o: ../printInfo.h
-CMakeFiles/App.dir/main.c.o: ../protoChange.h
+CMakeFiles/App.dir/main.c.o: ../protoChangeNew.h
+CMakeFiles/App.dir/main.c.o: ../protoChangeRemote.h
 CMakeFiles/App.dir/main.c.o: ../protoIncil.h
 CMakeFiles/App.dir/main.c.o: ../protobuf-c.h
 CMakeFiles/App.dir/main.c.o: ../structurs.pb-c.h
@@ -18,11 +19,17 @@ CMakeFiles/App.dir/printInfo.c.o: ../printInfo.c
 CMakeFiles/App.dir/printInfo.c.o: ../printInfo.h
 CMakeFiles/App.dir/printInfo.c.o: ../protobuf-c.h
 
-CMakeFiles/App.dir/protoChange.c.o: ../new_structur.pb-c.h
-CMakeFiles/App.dir/protoChange.c.o: ../protoChange.c
-CMakeFiles/App.dir/protoChange.c.o: ../protoChange.h
-CMakeFiles/App.dir/protoChange.c.o: ../protobuf-c.h
-CMakeFiles/App.dir/protoChange.c.o: ../structurs.pb-c.h
+CMakeFiles/App.dir/protoChangeNew.c.o: ../new_structur.pb-c.h
+CMakeFiles/App.dir/protoChangeNew.c.o: ../protoChangeNew.c
+CMakeFiles/App.dir/protoChangeNew.c.o: ../protoChangeNew.h
+CMakeFiles/App.dir/protoChangeNew.c.o: ../protobuf-c.h
+CMakeFiles/App.dir/protoChangeNew.c.o: ../structurs.pb-c.h
+
+CMakeFiles/App.dir/protoChangeRemote.c.o: ../new_structur.pb-c.h
+CMakeFiles/App.dir/protoChangeRemote.c.o: ../protoChangeRemote.c
+CMakeFiles/App.dir/protoChangeRemote.c.o: ../protoChangeRemote.h
+CMakeFiles/App.dir/protoChangeRemote.c.o: ../protobuf-c.h
+CMakeFiles/App.dir/protoChangeRemote.c.o: ../structurs.pb-c.h
 
 CMakeFiles/App.dir/protoIncil.c.o: ../protoIncil.c
 CMakeFiles/App.dir/protoIncil.c.o: ../protoIncil.h
