@@ -1,4 +1,4 @@
-#include "protoIncil.h"
+#include "../include/protoIncil.h"
 
 void add_new_user() 
 {        
@@ -34,13 +34,14 @@ void add_new_user()
 
         amessage__init(mess);
 
-        
+        mess->has_id = 1;
         mess->has_years = 1;
+        mess->has_crc = 1;
 
         mess->id = id;
         mess->years = years;
-        mess->crc = 2;
-
+        mess->crc = 9;
+        
         len = amessage__get_packed_size(mess);
         buffer = malloc(len);
         amessage__pack(mess, buffer);

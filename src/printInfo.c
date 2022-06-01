@@ -1,4 +1,4 @@
-#include "printInfo.h"
+#include "../include/printInfo.h"
 
 void printInfo() {
     

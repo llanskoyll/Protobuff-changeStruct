@@ -3,6 +3,6 @@
 #include <sys/stat.h>
 #include <inttypes.h>
 
-#include "new_structur.pb-c.h"
+#include "../proto/structurs_v1.pb-c.h"
 
 void printInfo();

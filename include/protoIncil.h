@@ -7,6 +7,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <inttypes.h>
-#include "structurs.pb-c.h"
+#include "../proto/structurs.pb-c.h"
 
 void add_new_user();

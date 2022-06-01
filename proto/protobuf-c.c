@@ -523,7 +523,7 @@ optional_field_get_packed_size(const ProtobufCFieldDescriptor *field,
 	} else {
 		if (!has)
 		{
-			printf("Error with : optional_field_get_packed_size \r\n");
+			printf("Size optinal decreased \r\n");
 			return 0;
 		}
 			

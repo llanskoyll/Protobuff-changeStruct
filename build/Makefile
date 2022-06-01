@@ -145,221 +145,248 @@ App/fast:
 	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/build
 .PHONY : App/fast
 
-main.o: main.c.o
+proto/protobuf-c.o: proto/protobuf-c.c.o
 
-.PHONY : main.o
-
-# target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/main.c.o
-.PHONY : main.c.o
-
-main.i: main.c.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/main.c.i
-.PHONY : main.c.i
-
-main.s: main.c.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/main.c.s
-.PHONY : main.c.s
-
-new_structur.pb-c.o: new_structur.pb-c.c.o
-
-.PHONY : new_structur.pb-c.o
+.PHONY : proto/protobuf-c.o
 
 # target to build an object file
-new_structur.pb-c.c.o:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/new_structur.pb-c.c.o
-.PHONY : new_structur.pb-c.c.o
+proto/protobuf-c.c.o:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/proto/protobuf-c.c.o
+.PHONY : proto/protobuf-c.c.o
 
-new_structur.pb-c.i: new_structur.pb-c.c.i
+proto/protobuf-c.i: proto/protobuf-c.c.i
 
-.PHONY : new_structur.pb-c.i
+.PHONY : proto/protobuf-c.i
 
 # target to preprocess a source file
-new_structur.pb-c.c.i:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/new_structur.pb-c.c.i
-.PHONY : new_structur.pb-c.c.i
+proto/protobuf-c.c.i:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/proto/protobuf-c.c.i
+.PHONY : proto/protobuf-c.c.i
 
-new_structur.pb-c.s: new_structur.pb-c.c.s
+proto/protobuf-c.s: proto/protobuf-c.c.s
 
-.PHONY : new_structur.pb-c.s
+.PHONY : proto/protobuf-c.s
 
 # target to generate assembly for a file
-new_structur.pb-c.c.s:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/new_structur.pb-c.c.s
-.PHONY : new_structur.pb-c.c.s
+proto/protobuf-c.c.s:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/proto/protobuf-c.c.s
+.PHONY : proto/protobuf-c.c.s
 
-printInfo.o: printInfo.c.o
+proto/structurs.pb-c.o: proto/structurs.pb-c.c.o
 
-.PHONY : printInfo.o
+.PHONY : proto/structurs.pb-c.o
 
 # target to build an object file
-printInfo.c.o:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/printInfo.c.o
-.PHONY : printInfo.c.o
+proto/structurs.pb-c.c.o:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/proto/structurs.pb-c.c.o
+.PHONY : proto/structurs.pb-c.c.o
 
-printInfo.i: printInfo.c.i
+proto/structurs.pb-c.i: proto/structurs.pb-c.c.i
 
-.PHONY : printInfo.i
+.PHONY : proto/structurs.pb-c.i
 
 # target to preprocess a source file
-printInfo.c.i:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/printInfo.c.i
-.PHONY : printInfo.c.i
+proto/structurs.pb-c.c.i:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/proto/structurs.pb-c.c.i
+.PHONY : proto/structurs.pb-c.c.i
 
-printInfo.s: printInfo.c.s
+proto/structurs.pb-c.s: proto/structurs.pb-c.c.s
 
-.PHONY : printInfo.s
+.PHONY : proto/structurs.pb-c.s
 
 # target to generate assembly for a file
-printInfo.c.s:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/printInfo.c.s
-.PHONY : printInfo.c.s
+proto/structurs.pb-c.c.s:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/proto/structurs.pb-c.c.s
+.PHONY : proto/structurs.pb-c.c.s
 
-protoChangeNew.o: protoChangeNew.c.o
+proto/structurs_v1.pb-c.o: proto/structurs_v1.pb-c.c.o
 
-.PHONY : protoChangeNew.o
+.PHONY : proto/structurs_v1.pb-c.o
 
 # target to build an object file
-protoChangeNew.c.o:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/protoChangeNew.c.o
-.PHONY : protoChangeNew.c.o
+proto/structurs_v1.pb-c.c.o:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/proto/structurs_v1.pb-c.c.o
+.PHONY : proto/structurs_v1.pb-c.c.o
 
-protoChangeNew.i: protoChangeNew.c.i
+proto/structurs_v1.pb-c.i: proto/structurs_v1.pb-c.c.i
 
-.PHONY : protoChangeNew.i
+.PHONY : proto/structurs_v1.pb-c.i
 
 # target to preprocess a source file
-protoChangeNew.c.i:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/protoChangeNew.c.i
-.PHONY : protoChangeNew.c.i
+proto/structurs_v1.pb-c.c.i:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/proto/structurs_v1.pb-c.c.i
+.PHONY : proto/structurs_v1.pb-c.c.i
 
-protoChangeNew.s: protoChangeNew.c.s
+proto/structurs_v1.pb-c.s: proto/structurs_v1.pb-c.c.s
 
-.PHONY : protoChangeNew.s
+.PHONY : proto/structurs_v1.pb-c.s
 
 # target to generate assembly for a file
-protoChangeNew.c.s:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/protoChangeNew.c.s
-.PHONY : protoChangeNew.c.s
+proto/structurs_v1.pb-c.c.s:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/proto/structurs_v1.pb-c.c.s
+.PHONY : proto/structurs_v1.pb-c.c.s
 
-protoChangeRemote.o: protoChangeRemote.c.o
+proto/structurs_v2.pb-c.o: proto/structurs_v2.pb-c.c.o
 
-.PHONY : protoChangeRemote.o
+.PHONY : proto/structurs_v2.pb-c.o
 
 # target to build an object file
-protoChangeRemote.c.o:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/protoChangeRemote.c.o
-.PHONY : protoChangeRemote.c.o
+proto/structurs_v2.pb-c.c.o:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/proto/structurs_v2.pb-c.c.o
+.PHONY : proto/structurs_v2.pb-c.c.o
 
-protoChangeRemote.i: protoChangeRemote.c.i
+proto/structurs_v2.pb-c.i: proto/structurs_v2.pb-c.c.i
 
-.PHONY : protoChangeRemote.i
+.PHONY : proto/structurs_v2.pb-c.i
 
 # target to preprocess a source file
-protoChangeRemote.c.i:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/protoChangeRemote.c.i
-.PHONY : protoChangeRemote.c.i
+proto/structurs_v2.pb-c.c.i:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/proto/structurs_v2.pb-c.c.i
+.PHONY : proto/structurs_v2.pb-c.c.i
 
-protoChangeRemote.s: protoChangeRemote.c.s
+proto/structurs_v2.pb-c.s: proto/structurs_v2.pb-c.c.s
 
-.PHONY : protoChangeRemote.s
+.PHONY : proto/structurs_v2.pb-c.s
 
 # target to generate assembly for a file
-protoChangeRemote.c.s:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/protoChangeRemote.c.s
-.PHONY : protoChangeRemote.c.s
+proto/structurs_v2.pb-c.c.s:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/proto/structurs_v2.pb-c.c.s
+.PHONY : proto/structurs_v2.pb-c.c.s
 
-protoIncil.o: protoIncil.c.o
+src/main.o: src/main.c.o
 
-.PHONY : protoIncil.o
+.PHONY : src/main.o
 
 # target to build an object file
-protoIncil.c.o:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/protoIncil.c.o
-.PHONY : protoIncil.c.o
+src/main.c.o:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/src/main.c.o
+.PHONY : src/main.c.o
 
-protoIncil.i: protoIncil.c.i
+src/main.i: src/main.c.i
 
-.PHONY : protoIncil.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-protoIncil.c.i:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/protoIncil.c.i
-.PHONY : protoIncil.c.i
+src/main.c.i:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/src/main.c.i
+.PHONY : src/main.c.i
 
-protoIncil.s: protoIncil.c.s
+src/main.s: src/main.c.s
 
-.PHONY : protoIncil.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-protoIncil.c.s:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/protoIncil.c.s
-.PHONY : protoIncil.c.s
+src/main.c.s:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/src/main.c.s
+.PHONY : src/main.c.s
 
-protobuf-c.o: protobuf-c.c.o
+src/printInfo.o: src/printInfo.c.o
 
-.PHONY : protobuf-c.o
+.PHONY : src/printInfo.o
 
 # target to build an object file
-protobuf-c.c.o:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/protobuf-c.c.o
-.PHONY : protobuf-c.c.o
+src/printInfo.c.o:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/src/printInfo.c.o
+.PHONY : src/printInfo.c.o
 
-protobuf-c.i: protobuf-c.c.i
+src/printInfo.i: src/printInfo.c.i
 
-.PHONY : protobuf-c.i
+.PHONY : src/printInfo.i
 
 # target to preprocess a source file
-protobuf-c.c.i:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/protobuf-c.c.i
-.PHONY : protobuf-c.c.i
+src/printInfo.c.i:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/src/printInfo.c.i
+.PHONY : src/printInfo.c.i
 
-protobuf-c.s: protobuf-c.c.s
+src/printInfo.s: src/printInfo.c.s
 
-.PHONY : protobuf-c.s
+.PHONY : src/printInfo.s
 
 # target to generate assembly for a file
-protobuf-c.c.s:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/protobuf-c.c.s
-.PHONY : protobuf-c.c.s
+src/printInfo.c.s:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/src/printInfo.c.s
+.PHONY : src/printInfo.c.s
 
-structurs.pb-c.o: structurs.pb-c.c.o
+src/protoIncil.o: src/protoIncil.c.o
 
-.PHONY : structurs.pb-c.o
+.PHONY : src/protoIncil.o
 
 # target to build an object file
-structurs.pb-c.c.o:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/structurs.pb-c.c.o
-.PHONY : structurs.pb-c.c.o
+src/protoIncil.c.o:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/src/protoIncil.c.o
+.PHONY : src/protoIncil.c.o
 
-structurs.pb-c.i: structurs.pb-c.c.i
+src/protoIncil.i: src/protoIncil.c.i
 
-.PHONY : structurs.pb-c.i
+.PHONY : src/protoIncil.i
 
 # target to preprocess a source file
-structurs.pb-c.c.i:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/structurs.pb-c.c.i
-.PHONY : structurs.pb-c.c.i
+src/protoIncil.c.i:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/src/protoIncil.c.i
+.PHONY : src/protoIncil.c.i
 
-structurs.pb-c.s: structurs.pb-c.c.s
+src/protoIncil.s: src/protoIncil.c.s
 
-.PHONY : structurs.pb-c.s
+.PHONY : src/protoIncil.s
 
 # target to generate assembly for a file
-structurs.pb-c.c.s:
-	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/structurs.pb-c.c.s
-.PHONY : structurs.pb-c.c.s
+src/protoIncil.c.s:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/src/protoIncil.c.s
+.PHONY : src/protoIncil.c.s
+
+src/protoUpdateFirst.o: src/protoUpdateFirst.c.o
+
+.PHONY : src/protoUpdateFirst.o
+
+# target to build an object file
+src/protoUpdateFirst.c.o:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/src/protoUpdateFirst.c.o
+.PHONY : src/protoUpdateFirst.c.o
+
+src/protoUpdateFirst.i: src/protoUpdateFirst.c.i
+
+.PHONY : src/protoUpdateFirst.i
+
+# target to preprocess a source file
+src/protoUpdateFirst.c.i:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/src/protoUpdateFirst.c.i
+.PHONY : src/protoUpdateFirst.c.i
+
+src/protoUpdateFirst.s: src/protoUpdateFirst.c.s
+
+.PHONY : src/protoUpdateFirst.s
+
+# target to generate assembly for a file
+src/protoUpdateFirst.c.s:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/src/protoUpdateFirst.c.s
+.PHONY : src/protoUpdateFirst.c.s
+
+src/protoUpdateSecond.o: src/protoUpdateSecond.c.o
+
+.PHONY : src/protoUpdateSecond.o
+
+# target to build an object file
+src/protoUpdateSecond.c.o:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/src/protoUpdateSecond.c.o
+.PHONY : src/protoUpdateSecond.c.o
+
+src/protoUpdateSecond.i: src/protoUpdateSecond.c.i
+
+.PHONY : src/protoUpdateSecond.i
+
+# target to preprocess a source file
+src/protoUpdateSecond.c.i:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/src/protoUpdateSecond.c.i
+.PHONY : src/protoUpdateSecond.c.i
+
+src/protoUpdateSecond.s: src/protoUpdateSecond.c.s
+
+.PHONY : src/protoUpdateSecond.s
+
+# target to generate assembly for a file
+src/protoUpdateSecond.c.s:
+	$(MAKE) -f CMakeFiles/App.dir/build.make CMakeFiles/App.dir/src/protoUpdateSecond.c.s
+.PHONY : src/protoUpdateSecond.c.s
 
 # Help Target
 help:
@@ -372,30 +399,33 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... package"
 	@echo "... App"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... new_structur.pb-c.o"
-	@echo "... new_structur.pb-c.i"
-	@echo "... new_structur.pb-c.s"
-	@echo "... printInfo.o"
-	@echo "... printInfo.i"
-	@echo "... printInfo.s"
-	@echo "... protoChangeNew.o"
-	@echo "... protoChangeNew.i"
-	@echo "... protoChangeNew.s"
-	@echo "... protoChangeRemote.o"
-	@echo "... protoChangeRemote.i"
-	@echo "... protoChangeRemote.s"
-	@echo "... protoIncil.o"
-	@echo "... protoIncil.i"
-	@echo "... protoIncil.s"
-	@echo "... protobuf-c.o"
-	@echo "... protobuf-c.i"
-	@echo "... protobuf-c.s"
-	@echo "... structurs.pb-c.o"
-	@echo "... structurs.pb-c.i"
-	@echo "... structurs.pb-c.s"
+	@echo "... proto/protobuf-c.o"
+	@echo "... proto/protobuf-c.i"
+	@echo "... proto/protobuf-c.s"
+	@echo "... proto/structurs.pb-c.o"
+	@echo "... proto/structurs.pb-c.i"
+	@echo "... proto/structurs.pb-c.s"
+	@echo "... proto/structurs_v1.pb-c.o"
+	@echo "... proto/structurs_v1.pb-c.i"
+	@echo "... proto/structurs_v1.pb-c.s"
+	@echo "... proto/structurs_v2.pb-c.o"
+	@echo "... proto/structurs_v2.pb-c.i"
+	@echo "... proto/structurs_v2.pb-c.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/printInfo.o"
+	@echo "... src/printInfo.i"
+	@echo "... src/printInfo.s"
+	@echo "... src/protoIncil.o"
+	@echo "... src/protoIncil.i"
+	@echo "... src/protoIncil.s"
+	@echo "... src/protoUpdateFirst.o"
+	@echo "... src/protoUpdateFirst.i"
+	@echo "... src/protoUpdateFirst.s"
+	@echo "... src/protoUpdateSecond.o"
+	@echo "... src/protoUpdateSecond.i"
+	@echo "... src/protoUpdateSecond.s"
 .PHONY : help
 
 

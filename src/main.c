@@ -1,9 +1,9 @@
 #include "stdio.h"
 
-#include "printInfo.h"
-#include "protoIncil.h"
-#include "protoChangeRemote.h"
-#include "protoChangeNew.h"
+#include "../include/printInfo.h"
+#include "../include/protoIncil.h"
+#include "../include/protoUpdateSecond.h"
+#include "../include/protoUpdateFirst.h"
 
 int main() {
     int change;
@@ -11,8 +11,8 @@ int main() {
     do {
 
         printf("Добавить нового пользователя  - 1 \r\n");
-        printf("Загрузить новую структуру с удаленным параметром - 2 \r\n");
-        printf("Вывести данные о структуре - 3 \r\n");
+        printf("Обновить структуру на версию \"1\" с \"0\" - 2 \r\n");
+        printf("Обновить структуру на версию \"2\" с \"1\" - 3 \r\n");
         printf("Выход - 0 \r\n");
         printf("Введите нужную опцию - ");
         scanf("%d", &change);
@@ -24,11 +24,11 @@ int main() {
             break;
 
         case 2:
-            change_structur_proto_remote();
+            update_structur_to_1_version();
             break;
 
         case 3:
-            // printInfo();
+            update_structur_to_2_version();
             break;
         
         case 0:

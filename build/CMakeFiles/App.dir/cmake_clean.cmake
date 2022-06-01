@@ -1,14 +1,15 @@
 file(REMOVE_RECURSE
   "App"
   "App.pdb"
-  "CMakeFiles/App.dir/main.c.o"
-  "CMakeFiles/App.dir/new_structur.pb-c.c.o"
-  "CMakeFiles/App.dir/printInfo.c.o"
-  "CMakeFiles/App.dir/protoChangeNew.c.o"
-  "CMakeFiles/App.dir/protoChangeRemote.c.o"
-  "CMakeFiles/App.dir/protoIncil.c.o"
-  "CMakeFiles/App.dir/protobuf-c.c.o"
-  "CMakeFiles/App.dir/structurs.pb-c.c.o"
+  "CMakeFiles/App.dir/proto/protobuf-c.c.o"
+  "CMakeFiles/App.dir/proto/structurs.pb-c.c.o"
+  "CMakeFiles/App.dir/proto/structurs_v1.pb-c.c.o"
+  "CMakeFiles/App.dir/proto/structurs_v2.pb-c.c.o"
+  "CMakeFiles/App.dir/src/main.c.o"
+  "CMakeFiles/App.dir/src/printInfo.c.o"
+  "CMakeFiles/App.dir/src/protoIncil.c.o"
+  "CMakeFiles/App.dir/src/protoUpdateFirst.c.o"
+  "CMakeFiles/App.dir/src/protoUpdateSecond.c.o"
 )
 
 # Per-language clean rules from dependency scanning.

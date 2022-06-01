@@ -6,81 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/artem/Рабочий стол/proto/main.c
-stdio.h
-/home/artem/Рабочий стол/proto/stdio.h
-printInfo.h
-/home/artem/Рабочий стол/proto/printInfo.h
-protoIncil.h
-/home/artem/Рабочий стол/proto/protoIncil.h
-protoChangeRemote.h
-/home/artem/Рабочий стол/proto/protoChangeRemote.h
-protoChangeNew.h
-/home/artem/Рабочий стол/proto/protoChangeNew.h
-
-/home/artem/Рабочий стол/proto/new_structur.pb-c.h
-protobuf-c.h
-/home/artem/Рабочий стол/proto/protobuf-c.h
-
-/home/artem/Рабочий стол/proto/printInfo.h
-stdio.h
--
-stdlib.h
--
-sys/stat.h
--
-inttypes.h
--
-new_structur.pb-c.h
-/home/artem/Рабочий стол/proto/new_structur.pb-c.h
-
-/home/artem/Рабочий стол/proto/protoChangeNew.c
-protoChangeNew.h
-/home/artem/Рабочий стол/proto/protoChangeNew.h
-
-/home/artem/Рабочий стол/proto/protoChangeNew.h
+/home/artem/Рабочий стол/proto/include/protoIncil.h
 stdio.h
 -
 stdlib.h
 -
 inttypes.h
 -
-sys/stat.h
--
-new_structur.pb-c.h
-/home/artem/Рабочий стол/proto/new_structur.pb-c.h
-structurs.pb-c.h
-/home/artem/Рабочий стол/proto/structurs.pb-c.h
+../proto/structurs.pb-c.h
+/home/artem/Рабочий стол/proto/proto/structurs.pb-c.h
 
-/home/artem/Рабочий стол/proto/protoChangeRemote.c
-protoChangeRemote.h
-/home/artem/Рабочий стол/proto/protoChangeRemote.h
-
-/home/artem/Рабочий стол/proto/protoChangeRemote.h
-stdio.h
--
-stdlib.h
--
-inttypes.h
--
-sys/stat.h
--
-new_structur.pb-c.h
-/home/artem/Рабочий стол/proto/new_structur.pb-c.h
-structurs.pb-c.h
-/home/artem/Рабочий стол/proto/structurs.pb-c.h
-
-/home/artem/Рабочий стол/proto/protoIncil.h
-stdio.h
--
-stdlib.h
--
-inttypes.h
--
-structurs.pb-c.h
-/home/artem/Рабочий стол/proto/structurs.pb-c.h
-
-/home/artem/Рабочий стол/proto/protobuf-c.h
+/home/artem/Рабочий стол/proto/proto/protobuf-c.h
 assert.h
 -
 limits.h
@@ -90,7 +26,11 @@ stddef.h
 stdint.h
 -
 
-/home/artem/Рабочий стол/proto/structurs.pb-c.h
+/home/artem/Рабочий стол/proto/proto/structurs.pb-c.h
 protobuf-c.h
-/home/artem/Рабочий стол/proto/protobuf-c.h
+/home/artem/Рабочий стол/proto/proto/protobuf-c.h
+
+/home/artem/Рабочий стол/proto/src/protoIncil.c
+../include/protoIncil.h
+/home/artem/Рабочий стол/proto/include/protoIncil.h
 

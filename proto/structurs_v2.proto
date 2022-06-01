@@ -1,0 +1,8 @@
+syntax = "proto2";
+
+
+message AMessage_3 {
+
+    optional uint32 id = 1;
+    optional uint32 crc = 3;
+}

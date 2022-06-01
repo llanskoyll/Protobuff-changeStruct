@@ -1,22 +1,24 @@
-#include "protoChangeNew.h"
+#include "../include/protoUpdateSecond.h"
 
 
-void change_structur_proto_new() {
+//for function if parametrs delete
+void update_structur_to_2_version() 
+{
     // Процесс считывания
     char *buffer, *wbuff;
     size_t filesize;
     size_t len, wlen = 0;
     struct stat statbuf;
 
-    if (stat("incilProto", &statbuf) != 0) {
+    if (stat("incilProto_v1", &statbuf) != 0) {
         printf("File not found\r\n");
         return;
     }
 
     FILE *fp;
-    fp = fopen("incilProto","rb");
+    fp = fopen("incilProto_v1","rb");
     if (!fp) {
-        printf("File is not opene\r\n");
+        printf("File is not open\r\n");
         return;
     }
 
@@ -33,16 +35,10 @@ void change_structur_proto_new() {
 
     fclose(fp);
 
+    
     AMessage2 *mess;
+    
     mess = amessage_2__unpack(NULL, filesize, buffer);
-
-    uint32_t new_parametr_sys = 0;
-    printf("Введите значение нового параметра - ");
-    scanf("%"PRIu32"",&new_parametr_sys);
-
-    mess->has_new_parametr = 1;
-    mess->new_parametr = new_parametr_sys;
- 
 
     if (!mess) {
         printf("Не удалось распаковать структуру\r\n");
@@ -50,13 +46,14 @@ void change_structur_proto_new() {
         return;
     }
 
+    mess->has_number = 0;
     wlen = amessage_2__get_packed_size(mess);
-
+    printf("%lu",wlen);
     wbuff = malloc(wlen);
 
     amessage_2__pack(mess, wbuff);
 
-    fp = fopen("incilProto_new","wb");
+    fp = fopen("incilProto_v2","wb");
     if (!fp) {
         printf("Unable to open file for write\r\n");
         goto err;
@@ -64,11 +61,6 @@ void change_structur_proto_new() {
 
     len = fwrite(wbuff, 1, wlen, fp);
     
-    if (wlen != len) {
-        printf("Удалось записать только %lu байт из %lu\r\n", len, wlen);
-        goto err;
-    }
-
     // hexdump -C name_file
     printf("Изменение структуры файла \n");
 

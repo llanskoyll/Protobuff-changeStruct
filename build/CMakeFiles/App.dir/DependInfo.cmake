@@ -4,14 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/artem/Рабочий стол/proto/main.c" "/home/artem/Рабочий стол/proto/build/CMakeFiles/App.dir/main.c.o"
-  "/home/artem/Рабочий стол/proto/new_structur.pb-c.c" "/home/artem/Рабочий стол/proto/build/CMakeFiles/App.dir/new_structur.pb-c.c.o"
-  "/home/artem/Рабочий стол/proto/printInfo.c" "/home/artem/Рабочий стол/proto/build/CMakeFiles/App.dir/printInfo.c.o"
-  "/home/artem/Рабочий стол/proto/protoChangeNew.c" "/home/artem/Рабочий стол/proto/build/CMakeFiles/App.dir/protoChangeNew.c.o"
-  "/home/artem/Рабочий стол/proto/protoChangeRemote.c" "/home/artem/Рабочий стол/proto/build/CMakeFiles/App.dir/protoChangeRemote.c.o"
-  "/home/artem/Рабочий стол/proto/protoIncil.c" "/home/artem/Рабочий стол/proto/build/CMakeFiles/App.dir/protoIncil.c.o"
-  "/home/artem/Рабочий стол/proto/protobuf-c.c" "/home/artem/Рабочий стол/proto/build/CMakeFiles/App.dir/protobuf-c.c.o"
-  "/home/artem/Рабочий стол/proto/structurs.pb-c.c" "/home/artem/Рабочий стол/proto/build/CMakeFiles/App.dir/structurs.pb-c.c.o"
+  "/home/artem/Рабочий стол/proto/proto/protobuf-c.c" "/home/artem/Рабочий стол/proto/build/CMakeFiles/App.dir/proto/protobuf-c.c.o"
+  "/home/artem/Рабочий стол/proto/proto/structurs.pb-c.c" "/home/artem/Рабочий стол/proto/build/CMakeFiles/App.dir/proto/structurs.pb-c.c.o"
+  "/home/artem/Рабочий стол/proto/proto/structurs_v1.pb-c.c" "/home/artem/Рабочий стол/proto/build/CMakeFiles/App.dir/proto/structurs_v1.pb-c.c.o"
+  "/home/artem/Рабочий стол/proto/proto/structurs_v2.pb-c.c" "/home/artem/Рабочий стол/proto/build/CMakeFiles/App.dir/proto/structurs_v2.pb-c.c.o"
+  "/home/artem/Рабочий стол/proto/src/main.c" "/home/artem/Рабочий стол/proto/build/CMakeFiles/App.dir/src/main.c.o"
+  "/home/artem/Рабочий стол/proto/src/printInfo.c" "/home/artem/Рабочий стол/proto/build/CMakeFiles/App.dir/src/printInfo.c.o"
+  "/home/artem/Рабочий стол/proto/src/protoIncil.c" "/home/artem/Рабочий стол/proto/build/CMakeFiles/App.dir/src/protoIncil.c.o"
+  "/home/artem/Рабочий стол/proto/src/protoUpdateFirst.c" "/home/artem/Рабочий стол/proto/build/CMakeFiles/App.dir/src/protoUpdateFirst.c.o"
+  "/home/artem/Рабочий стол/proto/src/protoUpdateSecond.c" "/home/artem/Рабочий стол/proto/build/CMakeFiles/App.dir/src/protoUpdateSecond.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
